@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+body {
+  width: 100%;
+  *zoom: 1;
+  height:100%;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:'Droid Sans', sans-serif, 'Open Sans Condensed', Arial, "Helvetica Neue", Helvetica, sans-serif; 
+  background-color: #efefef;
+  font-size: 16px;
+}
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+header#top {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  height: 70px;
+  background-color: teal  ;
+  
+  font-family:'droid_sans_700';
+}
+
+article#maincolumn {
+  display: inline;
+  float: left;
+
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  background-color: gray;
+}
+nav li{
+  display:inline; text-align:center; margin-left:125px; 
+
+}
+
+footer#footer {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  background-color: teal;
+  text-align:center;
+}
+
+
+
+
+h1 {
+  font-family: 'Droid Sans', sans-serif; font-weight:bold;
+  color:#393939; font-size:45px;
+}
+h2 {
+  font-size:25px;
+  color:#3CBDC8;
+}
+.images {
+  margin-left:42px;
+}
+
